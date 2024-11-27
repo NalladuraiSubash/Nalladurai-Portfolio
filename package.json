@@ -12,7 +12,9 @@
     "react-simple-typewriter": "^5.0.1",
     "slick-carousel": "^1.8.1",
     "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5"
+    "@emotion/styled": "^11.10.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.0",
+  "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start", 
