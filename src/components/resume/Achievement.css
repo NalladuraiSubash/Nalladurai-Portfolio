@@ -1,0 +1,85 @@
+
+.achievement-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .achievement-container {
+      flex-direction: row;
+      gap: 30px;
+    }
+  
+    .achievement-column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .achievement-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .achievement-column {
+      width: 100%;
+    }
+  }
+  
+  .achievement-header {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .achievement-subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ff014f;
+    letter-spacing: 4px;
+  }
+  
+  .achievement-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .achievement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .achievement-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .resume-card {
+    border-left: 6px solid rgba(0, 0, 0, 0.3);
+    padding-left: 20px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resume-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .resume-card p {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .resume-card .location {
+    font-style: italic;
+    color: #777;
+  }
+  

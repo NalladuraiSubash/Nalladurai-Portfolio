@@ -1,0 +1,72 @@
+#resume {
+  padding: 40px 0;
+  border-bottom: 1px solid black;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  font-family: 'Arial', sans-serif; 
+  margin-bottom: 56px; 
+}
+
+.title-subtitle {
+  font-size: 14px; 
+  text-transform: uppercase;
+  font-weight: 300; 
+  color: #ff014f; 
+  letter-spacing: 0.05em; 
+}
+
+.title-heading {
+  font-size: 36px; 
+  color: #e0e0e0; 
+  font-weight: 700; 
+  text-transform: capitalize;
+}
+
+.resume-section {
+  width: 100%;
+  padding-top: 20px; 
+}
+
+.resume-navigation {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 16px; 
+  justify-content: center;
+}
+
+.resume-navigation li {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid transparent;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.resume-navigation li:hover {
+  background-color: #f3f3f3;
+}
+
+.resume-navigation .active {
+  border-color: #ff014f; 
+  background-color: #ff014f;
+  color: #fff;
+}
+
+.resumeLi {
+  font-size: 19px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}

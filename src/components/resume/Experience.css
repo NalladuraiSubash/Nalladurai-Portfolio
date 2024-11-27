@@ -1,0 +1,60 @@
+.experience-container {
+  padding: 50px 0;
+}
+
+.experience-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.experience-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+
+.resume-card {
+  border-left: 6px solid rgba(0, 0, 0, 0.3);
+  padding-left: 20px;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resume-card p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.resume-card .location {
+  font-style: italic;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+  .experience-container {
+    padding: 20px 0; 
+  }
+  .experience-cards-container {
+    gap: 20px; 
+  }
+}

@@ -1,0 +1,111 @@
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.skills-column {
+  width: 100%;
+  max-width: 450px; 
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-header {
+  margin-bottom: 15px;
+}
+
+.skills-subtitle {
+  font-size: 12px;
+  color: #ff014f;
+  text-transform: uppercase;
+}
+
+.skills-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-name {
+  font-size: 16px;
+  color: #fff;
+}
+
+.skill-bar {
+  width: 60%;
+  height: 6px;
+  background: #444;
+  border-radius: 5px;
+  position: relative;
+}
+
+.skill-progress {
+  height: 100%;
+  background: #ff014f;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.skill-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.skill-progress-0 {
+  width: 100%;
+}
+.skill-progress-1 {
+  width: 100%;
+}
+.skill-progress-2 {
+  width: 100%;
+}
+.skill-progress-3 {
+  width: 100%;
+}
+.skill-progress-4 {
+  width: 100%;
+}
+
+.skill-progress-5 {
+  width: 90%;
+}
+.skill-progress-6 {
+  width: 90%;
+}
+.skill-progress-7 {
+  width: 80%;
+}
+.skill-progress-8 {
+  width: 85%;
+}
+.skill-progress-9 {
+  width: 80%;
+}
+.skill-progress-10 {
+  width: 70%;
+}

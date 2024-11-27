@@ -1,0 +1,30 @@
+.education-container {
+  padding: 50px 0;
+}
+
+.education-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: 40px; 
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; 
+  letter-spacing: 1px; 
+}
+
+.education-cards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px; 
+  }
+}

@@ -1,0 +1,49 @@
+.left-banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.welcome-text {
+  font-size: 18px; 
+  font-weight: normal;
+  color: #fff;
+}
+
+.main-title {
+  font-size: 64px; 
+  font-weight: bold;
+  color: #fff;
+}
+
+.highlighted-name {
+  color: #ff014f;
+  text-transform: capitalize;
+}
+
+.sub-title {
+  font-size: 36px; 
+  font-weight: bold;
+  color: #fff;
+}
+
+.description-text {
+  font-size: 16px; 
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #d1d5db;
+}
+
+@media (min-width: 1024px) {
+  .left-banner-container {
+    flex-direction: row;
+    gap: 0;
+  }
+}

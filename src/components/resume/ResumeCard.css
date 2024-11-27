@@ -1,0 +1,105 @@
+.resume-card-container {
+  margin-top: 100px;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.line-container {
+  width: 40px;
+  height: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 4rem;
+  position: relative;
+}
+
+.circle-container {
+  position: absolute;
+  top: -8px;
+  left: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+
+.inner-circle {
+  width: 12px;
+  height: 12px;
+  background-color: var(--body-color);
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.resume-card-container:hover .inner-circle {
+  background-color: var(--design-color);
+}
+
+.card-content {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-content:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.sub-title {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card-content:hover .title,
+.card-content:hover .sub-title {
+  color:#fff;
+}
+
+.result {
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: var(--design-color);
+  font-size: 0.875rem;
+  font-weight: medium;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+}
+
+.card-content:hover .description {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+:root {
+  --body-color: #ff014f;
+  --design-color: #ff014f;
+}
