@@ -22,7 +22,7 @@
   font-size: 14px; 
   text-transform: uppercase;
   font-weight: 300; 
-  color: #ff014f; 
+  color: #f39c12; 
   letter-spacing: 0.05em; 
 }
 
@@ -59,8 +59,8 @@
 }
 
 .resume-navigation .active {
-  border-color: #ff014f; 
-  background-color: #ff014f;
+  border-color: #f39c12; 
+  background-color: #f39c12;
   color: #fff;
 }
 

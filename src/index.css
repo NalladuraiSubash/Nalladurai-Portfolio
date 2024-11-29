@@ -1,29 +1,89 @@
+/* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@layer components{
-    .bannerIcon{
-        @apply w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
-    }
-    .resumeLi {
-    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
-         }
-.bgOpacity {
-@apply bg-black bg-opacity-40;
-                  }
-    .contactInput{
-        @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300
-    }
-.contactTextArea{
-    @apply w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
+
+.bannerIcon {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(209, 213, 219, 1); 
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: all 300ms;
+}
+.bannerIcon:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: translateY(-4px);
+    color: #6C63FF; 
+}
+
+.resumeLi {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(209, 213, 219, 1); 
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    transition: background-color 300ms;
+}
+.resumeLi:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bgOpacity {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contactInput {
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid rgba(75, 85, 99, 1); 
+    background-color: #191b1e;
+    color: #d1d5db; 
+    padding: 0px 16px;
+    border-radius: 8px; 
+    outline: none;
+    transition: border-color 300ms;
+}
+.contactInput:focus-visible {
+    outline-color: #6C63FF;
+    border-bottom-color: transparent;
+}
+
+.contactTextArea {
+    width: 100%;
+    background-color: #191b1e;
+    color: #d1d5db;
+    padding: 8px 16px;
+    border-radius: 8px; 
+    border-bottom: 1px solid rgba(75, 85, 99, 1); 
+    resize: none;
+    outline: none;
+    transition: border-color 300ms;
+}
+.contactTextArea:focus-visible {
+    outline-color: #6C63FF; 
+    border-bottom-color: transparent;
 }
 
 .active {
     color: white;
 }
-.scrollbar-hide::-webkit-scrollbar{
+
+.scrollbar-hide::-webkit-scrollbar {
     display: none;
 }

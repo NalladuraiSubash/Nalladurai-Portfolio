@@ -7,11 +7,12 @@ import ReactJs from '../../assets/images/skill/4.png';
 import ExpressJs from '../../assets/images/skill/6.png';
 import Mongodb from '../../assets/images/skill/7.png';
 import Postgres from '../../assets/images/skill/PostgreSQL_logo.3colors.120x120.png';
-import Vscode from '../../assets/images/skill/vscode.jpeg';
 import NodeJS from '../../assets/images/skill/10.png';
 import NextJS from '../../assets/images/skill/8.png';
 import Git from '../../assets/images/skill/9.png';
 import Postman from '../../assets/images/skill/Postman.jpeg';
+import Sql from '../../assets/images/skill/Sql_data_base_with_logo.png';
+
 
 
 const Skills = () => {
@@ -86,6 +87,15 @@ const Skills = () => {
 
         <div className="card">
           <div className="card-header">
+            <img className="icons" src={Sql} alt="VS Code" />
+          </div>
+          <div className="card-body">
+            <h3>SQL</h3>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-header">
             <img className="icons" src={Mongodb} alt="MongoDB" />
           </div>
           <div className="card-body">
@@ -120,14 +130,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="card">
-          <div className="card-header">
-            <img className="icons" src={Vscode} alt="VS Code" />
-          </div>
-          <div className="card-body">
-            <h3>VS Code</h3>
-          </div>
-        </div>
+        
 
       </div>
     </section>

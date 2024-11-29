@@ -50,7 +50,7 @@
 .project-title {
   font-size: 18px; 
   text-transform: uppercase;
-  color: #ff6347; 
+  color: #f39c12; 
   font-weight: 600;
 }
 
@@ -73,12 +73,13 @@
 }
 
 .icon:hover {
-  color: #ff6347; 
+  color: #f39c12; 
 }
 
 .github-icon:hover,
 .globe-icon:hover {
-  color: #ff6347;
+  color: #f39c12;
+  transform: scale(1.5);
 }
 
 .project-description {
@@ -105,7 +106,7 @@
 .projects-grid {
   justify-items: center; 
   align-items: center;
-  width: 50%;
+  width: 40%;
   margin: 0 auto; 
 }
 

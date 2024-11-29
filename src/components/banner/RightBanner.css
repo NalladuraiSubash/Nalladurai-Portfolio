@@ -18,17 +18,19 @@
     bottom: 0;
     width: 350px; 
     height: 300px; 
-    background: linear-gradient(to right, #1e2024, #202327);
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); 
+    /* background: linear-gradient(to right, #1e2024, #202327); */
+    background-color: #cfdefa;
+    box-shadow: 0px 5px 10px rgba(210, 230, 253, 0.767); 
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
   }
   
   @media (min-width: 1024px) {
     .banner-image {
-      width: 500px;
-      height: 680px;
+      width: 450px;
+      height: 500px;
     }
   
     .gradient-overlay {

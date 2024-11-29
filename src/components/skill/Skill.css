@@ -10,7 +10,7 @@
 .title h2 {
   font-size: 40px;
   font-weight: bold;
-  color: #ff014f;
+  color: #f39c12;
 }
 
 .skills-grid {
@@ -38,6 +38,9 @@
 .card:hover {
   transform: translateY(-10px);
   background-color: black;
+  .card-body h3{
+    color: #f39c12;
+  }
 }
 
 .card-header {
@@ -50,7 +53,7 @@
 
 .card-body h3 {
   font-size: 22px; 
-  color: #ff014f;
+  color: #fff;
   margin-top: 10px;
 }
 

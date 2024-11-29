@@ -1,14 +1,14 @@
 import React from 'react';
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
-import TMS from '../../assets/images/projects/TMS.png';
+import TMS from '../../assets/images/projects/TMS_Project.png';
 import './Projects.css';  
 
 const Projects = () => {
   return (
     <section id="projects" className="projects-section">
       <div className="title-container">
-        <h1 className="title-heading">My Projects</h1>
+        <h1 className="title-heading">My Project</h1>
       </div>
       <div className="projects-grid">
         <div className="projects-card">

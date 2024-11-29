@@ -19,7 +19,7 @@ const LeftBanner = () => {
         </h1>
         <h2 className="sub-title">
           a <span>{text}</span>
-          <Cursor cursorBlinking="false" cursorStyle="|" cursorColor="#ff014f" />
+          <Cursor cursorBlinking="false" cursorStyle="|" cursorColor="#f39c12" />
         </h2>
         <p className="description-text">
         I am a full-stack web developer with a focus on building responsive, scalable, and user-friendly web applications. My goal is to combine my skills in both front-end and back-end development to create seamless experiences that meet user needs and deliver business value. I am always eager to learn new technologies and stay ahead of industry trends to create impactful, high-quality solutions.

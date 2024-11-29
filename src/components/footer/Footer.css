@@ -11,6 +11,7 @@
 }
 
 .footer-icons {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -19,8 +20,12 @@
 
 .footer-icon {
     font-size: 24px;
-    color: #ff014f;
+    color: #f39c12;
 }
+
+.footer-icon:hover {
+    transform: scale(2);
+  }
 
 .footer-text {
     font-size: 14px;
