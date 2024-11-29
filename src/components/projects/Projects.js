@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
-import TMS from '../../assets/images/projects/TMS_Project.png';
+import TMS from '../../assets/images/projects/image.png';
 import './Projects.css';  
 
 const Projects = () => {
